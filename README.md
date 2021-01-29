@@ -1,5 +1,9 @@
 # Random Taco!
 
+Run `npm i`
+Run `npm run dev` and look at `http://localhost:3000/`
+
+
 Use fetch to the below API 
 
 ```js
