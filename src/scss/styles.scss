@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@700&display=swap');
+
+:root {
+  --main-dark-gray-bg: #2b2b2b;
+  --main-light-gray-bg: #eaecef;
+  --title-light-gray-color: #9e9d9d;
+  --title-dark-gray-color: #545454;
+  --gold-highlight-color: #fca311;
+  --dark-mode-bg: linear-gradient(to top left, #000000, #545454);
+  --background: var(--dark-mode-bg);
+  --foreground: var(--title-light-gray-color);
+}
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100vw; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center !important;
+  align-content: center;
+  background-color: var(--main-light-gray-bg); 
+  font-family: "Open Sans", sans-serif;
+
+.main_taco-app{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%; 
+  h1{
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--title-dark-gray-color) ;
+    font-family: 'Gorditas', cursive;
+    font-size: 4.2rem;
+    
+  }
+    .taco__container{
+      background-color: var(--main-dark-gray-bg);
+      padding: 2rem;
+      box-shadow: 0 10px 10px -5px;
+      width: 90%;
+      margin: 1rem auto; 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      border-radius: 0.5rem;
+    
+      h1, p{
+        color: var(--gold-highlight-color);
+        font-size: 2.5rem;
+        text-align: left;
+        margin: 0.5rem 0; 
+        font-family: "Open Sans", sans-serif;
+
+
+      }
+
+      h1 span{
+        color: var(--main-light-gray-bg)
+      }
+      
+      p{
+        color: var(--title-light-gray-color); 
+        font-size:1.8rem;
+        line-height: 2.8rem;
+        letter-spacing: 1px;
+        padding: 0.5rem;
+        text-align: left;
+      }
+    }
+  }
+}
+
