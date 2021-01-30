@@ -11,6 +11,7 @@ export default function App() {
 				);
 				const data = await response.json();
 				setTaco(data);
+				console.table('Line 14', data);
 			} catch (error) {
 				console.error(error);
 			}

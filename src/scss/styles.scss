@@ -8,8 +8,6 @@
   --title-dark-gray-color: #545454;
   --gold-highlight-color: #fca311;
   --dark-mode-bg: linear-gradient(to top left, #000000, #545454);
-  --background: var(--dark-mode-bg);
-  --foreground: var(--title-light-gray-color);
 }
 
 *,
@@ -84,4 +82,6 @@ body{
     }
   }
 }
+
+
 
