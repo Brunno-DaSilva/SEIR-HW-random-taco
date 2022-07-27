@@ -7,7 +7,7 @@ Run `npm i`
 Run `npm run dev` and look at `http://localhost:3000/`
 
 
-Use fetch to the below API 
+Use fetch to get data from the below API 
 
 ```js
    fetch('http://taco-randomizer.herokuapp.com/random/?full-tack=true')
